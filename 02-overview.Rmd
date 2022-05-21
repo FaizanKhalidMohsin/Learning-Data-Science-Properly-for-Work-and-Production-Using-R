@@ -1,0 +1,20 @@
+# Overview
+
+## For a complete data science we need 4 aspects. 
+
+Principals of Software development, Statistics, Development Operations. 
+
+
+1. DevOps
+2. R
+3. RMarkdown
+4. Git Bash Command Line
+5. GitHub
+6. Docker
+7. Data Bases
+8. SQL
+9. Principals of Visualization
+10. 
+
+
+

@@ -1,5 +1,5 @@
 --- 
-title: "All about R and R Applications"
+title: "All About R and R Applications"
 author: "Faizan Khalid Mohsin"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
