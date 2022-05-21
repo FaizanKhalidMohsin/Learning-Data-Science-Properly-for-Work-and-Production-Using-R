@@ -34,3 +34,13 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+
+
+The installation steps for TinyTex are simply as follows:
+
+```{r, eval=F}
+install.packages('tinytex')
+tinytex::install_tinytex()
+```
+
+
