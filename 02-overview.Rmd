@@ -5,8 +5,10 @@
 Principals of Software development, Statistics, Development Operations. 
 
 
+The technical tools you need learn to be able to work as a data scientist are:
+
 1. DevOps
-2. R
+2. Statistical Computational Language (R, Python, Julia, etc.)
 3. RMarkdown
 4. Git Bash Command Line
 5. GitHub
@@ -16,5 +18,21 @@ Principals of Software development, Statistics, Development Operations.
 9. Principals of Visualization
 10. 
 
+
+
+
+The things you will need to learn how to do as a data scientist are:
+
+__1. Practical Step 0:** Practically looking and understand the raw data. 
+    1. How to look at raw data. 
+    2. How to evaluate the raw data. 
+    3. How to understand the raw data. 
+__2. Theoretical Step 0:__ Knowing what format the data should be in to be able to visualize it, create tables of it's variables (and lastly to properly run models on it). 
+    1. What format the raw data should be transformed into to visuals it. 
+    2. What format the raw data should be transformed into to make tables to understand the data. 
+    3. What format the raw data needs to be transformed into so that statistical, machine learning, predictive, and inferential models can be applied to the data. 
+    4. 
+__3. Practical Step 1:__ How to transform the raw data using SQL and your Statistical Programming Language like R. 
+    1. 
 
 
