@@ -1,1 +1,9 @@
 # Introduction {#intro}
+
+
+Hello Everyone! Hope you all are doing well. 
+
+My hope is to help you become a data scientist via this book that you would otherwise need to learn to become by being hired and trained at a proper machine learning company. 
+
+
+
