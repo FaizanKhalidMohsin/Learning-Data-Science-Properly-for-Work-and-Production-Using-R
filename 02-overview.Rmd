@@ -1,5 +1,13 @@
 # Overview
 
+
+What is data science used for?
+
+All of data science uses data for three things: Descriptive, in which we just report, visualize, display the data; Explanatory, in which we try to understand how the different variables affect one another; and Predictive; in which the aim is to predict variables. 
+
+
+
+
 ## For a complete data science we need 4 aspects. 
 
 Principals of Software development, Statistics, Development Operations. 
@@ -7,32 +15,49 @@ Principals of Software development, Statistics, Development Operations.
 
 The technical tools you need learn to be able to work as a data scientist are:
 
-1. DevOps
-2. Statistical Computational Language (R, Python, Julia, etc.)
-3. RMarkdown
-4. Git Bash Command Line
-5. GitHub
-6. Docker
-7. Data Bases
-8. SQL
-9. Principals of Visualization
-10. 
 
-
+1. Project management & Team Collaboration and Communication technologies.
+    1. Slack
+    2. Jira (or Trello, Shortcuts, etc.)
+    3. GitHub
+2. DevOps
+    1. Basics of command line or Linux operating system
+    2. Git Bash
+    3. Git Hub
+    4. 
+    5. Cloud Computing
+    6. Cloud Storage
+    7. Docker
+    8. Hosting Docker Containers online.
+3. Statistical Computational Language R (in our case, but in general could be Python, Julia, etc.)
+    1. R
+    2. RStudio
+    3. RMarkdown
+4. Data Bases
+    1. SQL
+    2. SQLite
+5. Applications and Interactive Dashboards in R.
+    1. Flexdashboard
+    2. Shiny
+    3. Shinydashboards
+6.  
 
 
 The things you will need to learn how to do as a data scientist are:
 
-__1. Practical Step 0:** Practically looking and understand the raw data. 
+1. __Practical Step 0:__ Practically looking and understand the raw data. 
     1. How to look at raw data. 
     2. How to evaluate the raw data. 
-    3. How to understand the raw data. 
-__2. Theoretical Step 0:__ Knowing what format the data should be in to be able to visualize it, create tables of it's variables (and lastly to properly run models on it). 
+    3. How to understand the raw data.
+    
+2. __Theoretical Step 0:__ Knowing what format the data should be for data science.
+    0. This simply means the format the data needs to be in to correctly visualize it, create tables of it's variables, and apply predictive and inferential (explanatory) modeling. 
     1. What format the raw data should be transformed into to visuals it. 
     2. What format the raw data should be transformed into to make tables to understand the data. 
     3. What format the raw data needs to be transformed into so that statistical, machine learning, predictive, and inferential models can be applied to the data. 
     4. 
-__3. Practical Step 1:__ How to transform the raw data using SQL and your Statistical Programming Language like R. 
+
+3. __Practical Step 1:__ How to transform the raw data using SQL and your Statistical Programming Language like R. 
     1. 
 
 
