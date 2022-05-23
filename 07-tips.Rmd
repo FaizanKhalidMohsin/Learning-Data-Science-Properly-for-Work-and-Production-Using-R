@@ -10,6 +10,7 @@ If we want to convert the phrase general useful tips to a title it becomes: Gene
 
 Now, also, sentences should be written properly. The first word's first letter should be capital and the sentence should end with a period also called full-stop like this one. 
 
+## Essential Survival Habits.
 
 One great thing I find about R Markdown and knitting a document is that to successfully knit there needs to be zero errors. So this is a great way to check if there is any error in the code.
 
@@ -19,4 +20,6 @@ Further, once it knits successfully, then the code needs to be immediately commi
 
 These two steps of knitting and pushing the code to GitHub should be like breathing. Done extremely often automatically and even without thinking. If you can you should make a short cut like TAB + G so that the the r markdown knits and if successful then commits and pushes to GitHub only prompting you to add a commit message.
 
+## Good General Habits.
 
+Another, important tip is to look at your visualizations and the summary tables and think if the numbers you get make sense. I will be very frank here, I typically try not to do this because I have to use my brain and think. And sometimes that is actually very mentally power consuming.  
