@@ -5,22 +5,16 @@ What is data science used for?
 
 All of data science uses data for three things: Descriptive, in which we just report, visualize, display the data; Explanatory, in which we try to understand how the different variables affect one another; and Predictive; in which the aim is to predict variables. 
 
-
-
-
-## For a complete data science we need 4 aspects. 
-
-Principals of Software development, Statistics, Development Operations. 
+Further, it is helpful to understand that data science is made of four main fields: Software Development, Programming, Statistics, and DeveOps.
 
 
 The technical tools you need learn to be able to work as a data scientist are:
 
-
-1. Project management & Team Collaboration and Communication technologies.
+1. __Project management & Team Collaboration and Communication technologies.__
     1. Slack
     2. Jira (or Trello, Shortcuts, etc.)
     3. GitHub
-2. DevOps
+2. __DevOps__
     1. Basics of command line or Linux operating system
     2. Git Bash
     3. Git Hub
@@ -29,24 +23,23 @@ The technical tools you need learn to be able to work as a data scientist are:
     6. Cloud Storage
     7. Docker
     8. Hosting Docker Containers online.
-3. Statistical Computational Language R (in our case, but in general could be Python, Julia, etc.)
+3. __Statistical Computational Language R (in our case, but in general could be Python, Julia, etc.)__
     1. R
     2. RStudio
     3. RMarkdown
-4. Data Bases
+4. __Data Bases__
     1. SQL
     2. SQLite
-5. Applications and Interactive Dashboards in R.
+5. __Applications and Interactive Dashboards in R.__
     1. Flexdashboard
     2. Shiny
     3. Shinydashboards
-6.  
 
 
 The things you will need to learn how to do as a data scientist are:
 
 1. __Practical Step 0:__ Practically looking and understand the raw data. 
-    1. How to look at raw data. 
+    1. How to look at raw data.
     2. How to evaluate the raw data. 
     3. How to understand the raw data.
     
