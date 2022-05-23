@@ -11,3 +11,8 @@ If we want to convert the phrase general useful tips to a title it becomes: Gene
 Now, also, sentences should be written properly. The first word's first letter should be capital and the sentence should end with a period also called full-stop like this one. 
 
 
+One great thing I find about R Markdown and knitting a document is that to successfully knit there needs to be zero errors. So this is a great way to check if there is any error in the code.
+
+For working in R Markdown. Please knit the markdown after making small changes in the code so you know if there is an error and can isolate, correct, and debug it. If you write a lot of code and then knit and there is a error, even a very simple error can be very hard to find buried in code. 
+
+Further, once it knits successfully, 
