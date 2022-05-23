@@ -15,4 +15,8 @@ One great thing I find about R Markdown and knitting a document is that to succe
 
 For working in R Markdown. Please knit the markdown after making small changes in the code so you know if there is an error and can isolate, correct, and debug it. If you write a lot of code and then knit and there is a error, even a very simple error can be very hard to find buried in code. 
 
-Further, once it knits successfully, 
+Further, once it knits successfully, then the code needs to be immediately committed to git and push it to GitHub.
+
+These two steps of knitting and pushing the code to GitHub should be like breathing. Done extremely often automatically and even without thinking. If you can you should make a short cut like TAB + G so that the the r markdown knits and if successful then commits and pushes to GitHub only prompting you to add a commit message.
+
+
