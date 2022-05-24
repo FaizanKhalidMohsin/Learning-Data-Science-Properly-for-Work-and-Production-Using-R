@@ -1,1 +1,29 @@
 # Exploratory Data Analysis {#eda}
+
+
+For EDA I would recommend looking at the data in its entirety and then to look at each variable individually. 
+
+Let me first start on how to look at individual variables. 
+
+1. Write the Title with the variable name.
+2. Find the number of unique values of the variable. Is it less then the total number of rows.
+3. Print the unique values of the variable.
+4. Make a table with the count of the values of the variable.
+5. Find the number of missing values or NA's in the variable. 
+6. You should visualize the count table and include the NA's in the visual. 
+ 
+
+Here is just the list of things and the order in which they should appear in the report. 
+
+1. Title
+2. Number of unique values
+3. List of unique values
+4. Count table of the values of the variable. 
+5. Number of missing values in the variable (i.e. NA's). 
+6. Visualization of the count table including the number of missing values in the variable.
+
+
+To do this in the EDA section of what I believe would be your report you should first write the title with the variable name for example: Looking at VaraibleName in Raw Version.
+
+After that you should print the number of unique values and then print what the unique values are.
+After that you should make a table with the count of 
