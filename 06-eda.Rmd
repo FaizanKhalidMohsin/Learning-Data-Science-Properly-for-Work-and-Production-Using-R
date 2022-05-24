@@ -26,4 +26,6 @@ Here is just the list of things and the order in which they should appear in the
 To do this in the EDA section of what I believe would be your report you should first write the title with the variable name for example: Looking at VaraibleName in Raw Version.
 
 After that you should print the number of unique values and then print what the unique values are.
-After that you should make a table with the count of 
+After that you should make a table with the count of the unique values in the variable. Following this also show the number of missing values. Lastly, create a visualization for the count table. 
+
+If the variable is continuous then the visualization should be a histogram. If the variable is numeric but not continues, for example discrete like number of houses in a district then the visualization should be a bar chart also call bar graph and bar plot. Finally, if the variable is categorical such as the participant's sex which can be male, female or other, then the visualization should be a bar chart. 
