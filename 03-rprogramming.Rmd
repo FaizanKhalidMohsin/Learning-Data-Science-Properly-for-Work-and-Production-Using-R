@@ -1,0 +1,10 @@
+# R Programming Techniques
+
+
+## R Programming Essential Tips 
+
+1. When repeating mutate to create for example percentage column in a table simply write that as a pip compatible function and call the function. 
+
+2. 
+
+
