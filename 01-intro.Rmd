@@ -7,3 +7,8 @@ My hope is to help you become a data scientist via this book that you would othe
 
 
 This book's examples and specific code is run on a window's operating system and is done using R. 
+
+
+
+
+

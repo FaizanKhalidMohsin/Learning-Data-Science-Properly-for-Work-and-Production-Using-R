@@ -1,0 +1,18 @@
+# R Markdown {#rmarkdown}
+
+First of all, I would like to say that markdown is amazing and that R markdown is even more amazing. 
+
+
+1. Firstly, when you load tidyverse you do not need to load the different packages contained in tidyverse such as dplyr, ggplot2, readr, tidytext separately. 
+
+2. Secondly, all the libraries or packages should be in the same code chuck loaded in the beginning of the R markdown.
+
+3. 
+
+
+
+## R Programming Tips
+
+1. When repeating mutate to create for example percentage column in a table simply write that as a pip compatible function and call the function. 
+
+2. 
