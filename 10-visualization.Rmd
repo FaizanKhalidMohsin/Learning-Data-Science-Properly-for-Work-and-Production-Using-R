@@ -4,7 +4,7 @@
 
 # Bar Chart tips
 
-1. Not use grey to colour the coloumns. It just does not look really well. Better to use company theme, or just blue or some soothing actual colour.
+1. Do not use grey to colour the coloumns. It just does not look really well. Better to use company theme, or just blue or some soothing actual colour.
 
 2. In the axis, especially y-axis the numbers should not be displayed as 3e+05. They should be in the format what we call "pretty numbers".
 
