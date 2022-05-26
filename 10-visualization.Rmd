@@ -10,3 +10,4 @@
 
 3. In bar charts, the value of the bars should always be displayed either inside or just on top of the bars. 
 
+4. If the bar chart has a lot of categories to display such as more than 25 and it is not reasonable to display so many categories of bar in one chart then, choose the top 6 or 10 categories in the variable to be displayed in the bar chart. 
