@@ -16,3 +16,5 @@ First of all, I would like to say that markdown is amazing and that R markdown i
 1. When repeating mutate to create for example percentage column in a table simply write that as a pip compatible function and call the function. 
 
 2. 
+
+
