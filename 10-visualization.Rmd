@@ -1,8 +1,11 @@
 # Visualization {#viz}
 
+## Essential Visualization Principals
+
+1. All visualizations must at all times, have a title. No visualization should be with a title.
 
 
-# Bar Chart tips
+## Bar Chart tips
 
 1. Do not use grey to colour the coloumns. It just does not look really well. Better to use company theme, or just blue or some soothing actual colour.
 
@@ -15,3 +18,4 @@
 5. For the bar charts I would not recommend using light colours. For example, I would not recommend using light blue, but rather simply blue. 
 
 6. I would also recommend using high contrast colours. This makes visualizations look very good and appealing, in general (though there are exceptions).
+
