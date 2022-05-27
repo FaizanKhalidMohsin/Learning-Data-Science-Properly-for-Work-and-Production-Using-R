@@ -14,7 +14,7 @@ How to write a title for a visualization?
 
 The title of a visualization should be such that when you little sister or brother reads the title he understands the visualization, or what the visualization is trying to represent. For example, for a bar chart the title could be "Bar Chart for Contractor Type". Bad title. But if you say, "The number of counts of the different types of Contractors." your younger brother or sister should be able to understand what the visualization is showing. 
 
-The title should not have the variable name which was stored in the dataset. For example instead of saying "Count of ContractorType" it should say "Count of Types of Different Contractors." As can be seen from this example. Title, should describe what is shown rather than simply containing the data variable name which some times are very dense and hard to understand. 
+The title should not have the variable name which was stored in the dataset. For example instead of saying "Count of ContractorType" it should say "Count of Different Types of Contractors." As can be seen from this example. Title, should describe what is shown rather than simply containing the data variable name which some times are very dense and hard to understand. 
 
 ## Bar Chart tips
 
