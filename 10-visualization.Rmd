@@ -2,7 +2,7 @@
 
 ## Essential Visualization Principals
 
-1. All visualizations must at all times, have a title. No visualization should be with a title.
+1. All visualizations must, at all times, have a title. No visualization should be without a title.
 
 
 ## Bar Chart tips
