@@ -6,6 +6,8 @@
 
 2. Histograms are not bar charts and bar charts are not histograms. Histograms are for continuous variables and bar charts are for categorical variables and discrete variables.
 
+__Useful actionable tip:__ By the way everyone should Google and understand what continuous variable, categorical variables, and discrete variables are. Especially, the last two are very important understand well.
+
 ## Writing Visualization Titles
 
 How to write a title for a visualization?
