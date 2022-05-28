@@ -9,7 +9,7 @@ First of all, I would like to say that markdown is amazing and that R markdown i
 
 2. Secondly, all the libraries or packages should be in the same code chuck loaded in the beginning of the R markdown.
 
-3. 
+3. Everytime you successfully knit an R markdown file it will save the rendered out put as a separate file in either an html, word, or pdf file format. Hence, you can always open and see your last successfully rendered R markdown report. 
 
 
 ## Sample paragraph displaying R Markdown capabilities
