@@ -5,6 +5,6 @@
 
 1. When repeating mutate to create for example percentage column in a table simply write that as a pip compatible function and call the function. 
 
-2. 
+2. Also, write small chucks of code and run it to see if it works. It will be much easier to debug if there is an error and to find and isolate it. It becomes very difficult to debug code the bigger it gets.
 
 
