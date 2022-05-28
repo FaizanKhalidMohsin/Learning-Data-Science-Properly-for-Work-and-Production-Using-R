@@ -30,3 +30,4 @@ The title should not have the variable name which was stored in the dataset. For
 
 6. I would also recommend using high contrast colours. This makes visualizations look very good and appealing, in general (though there are exceptions).
 
+7. The values of the categories of the variable in a bar chart should always be displayed. By default, they should always go above the bars since if the bars do not have enough height the values will not fit in them and if your data is changing, and is not a static report then it is better to be safe. 
