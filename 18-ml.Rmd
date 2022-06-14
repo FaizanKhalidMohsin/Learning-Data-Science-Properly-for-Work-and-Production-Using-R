@@ -1,0 +1,23 @@
+# Machine Learning {#ml}
+
+
+
+
+In machine learning the point is always prediction or classification. 
+
+Machine learning is divided into supervised learning or unsupervised learning. 
+
+In supervised learning we have the outcome variable in the data set as well as the variables of interest called features, 
+
+The __outcome variable__ also called the __target variable__, also called the __variable of interest__, __dependent variables__, etc. We choose this variable from the data set. We determine what is of interest to us and what variable will be the best choice for whatever question we are trying to answer or address. 
+
+The __features__ (computer science lingo) are also called __covariates__ (statistical lingo), __explanatory variables__ (statistical lingo), __predictive variables__ (statistical lingo), __independent variables__ (statistical lingo).
+
+In data science in general there is always a real world question we want to answer using the data that we have. We then look at the data and think of which variable in the data set will be the best option for answering the question we are interested in.
+
+We have to think how to formulate the real world problem into a machine learning question that can be answered using the data.
+
+So similarly as we decide which variable to choose as the __variable of interest__, i.e. the __target variable__ we also choose which variables to use from the data as the __features__ or __explanatory variables__.
+
+
+
