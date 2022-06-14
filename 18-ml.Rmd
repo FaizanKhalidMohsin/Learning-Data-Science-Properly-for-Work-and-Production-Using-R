@@ -19,5 +19,28 @@ We have to think how to formulate the real world problem into a machine learning
 
 So similarly as we decide which variable to choose as the __variable of interest__, i.e. the __target variable__ we also choose which variables to use from the data as the __features__ or __explanatory variables__.
 
+The data set, which has dimensions N x (p + 1), is first and foremost separated into three groups: train, test, validate. In code we typically label them as dfTrain, dfTest, dfVal. Where dfTrain has number of rows n_train, dfTest has number of rows n_test, and similarly n_val for dfVal. 
 
+Therefore n_train + n_test + n_val = N
+
+Further:
+
+1. n_train = n * .5
+2. n_test  = n * .25
+3. n_val   = n * .25
+
+Further, these three are separated into __target variable__ __features__ and label them in the code as follows: 
+
+1. y_train (n_train x 1) and X_train (n_train x p)
+2. y_test (n_test x 1) and X_test (n_test x p)
+3. y_val (n_val x 1) and X_val (n_val x p)
+
+
+
+Where the y_* variables are a vectors or 1 dimensional columns. It has the same number of rows as the number of rows in the __cleaned and transformed__ data set. So the dimensions of y_* will be n x 1 where n
+is the number of rows. 
+
+X_* will have dimensions n x p where p is the number of __features__ or __explanatory variables__ we want to use to predict the __target variable__. 
+
+How you name these things are we code the __target variable__ as
 
