@@ -110,7 +110,8 @@ no push in develop
 
 
 # Pull Requests
-
+ The name of pull request should be the Jira Ticket, e.g. feature/CS-104
+ 
 PR Example:
 
 PR made, please review.
