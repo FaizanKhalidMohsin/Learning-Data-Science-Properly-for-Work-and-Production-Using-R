@@ -2,6 +2,8 @@
 
 First of all, I would like to say that command line and linux are amazing. It does things so simply and so easily it is almost as if you wave a hand a your room gets cleaned. You make a few hand gestures and wood, stone, and metal come together and assemble themselves into the frame of the house you have in mind. The ratio of the amount of effort you put in, the simplisity of the instructions and the accuracy of the execution to not what you say, but what you actually want is a kin to that of magic. So I write this ode in praise of the command line, Linux, and its predecessor Unix. 
 
+## Folder Organiztion
+
 
 ## The Command Line
 
