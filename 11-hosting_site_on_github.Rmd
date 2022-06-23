@@ -1,1 +1,85 @@
 # How to host website on Git Hub {#gitwebhost}
+
+Step : 01 
+Create your project's repository. Login to your GitHub account and click the New repository icon from your account homepage.
+
+Step : 02
+Name your repository "username.github.io", replacing username with your GitHub username. Be sure it is public and go ahead and tell GitHub to create a README file upon generating the repo.
+
+Step : 03
+Create Repository
+
+# Using Bit Bash Command Line
+
+: Make sure you should have git installed
+Step : 04
+Go to your local directory where all files are stored, right click there and open "GIT BASH" command line
+
+Step : 05
+# Run Commands
+git init
+# add all files in github repository
+git add .
+# check git status
+git status
+# add commit message
+git commit -m "Your Message"
+# push files in remote repository
+# clone your repository and generate repo URL
+git remote add origin repo_URL
+# Finalize pushing files
+git push -u origin master (this command will ask you for your github username and password)
+
+Step : 06
+refresh your project repo page... you will notify all files would be uploades there
+
+Step : 07
+Go to Settings of your repository and find Github Pages 
+
+Step : 08
+By default it's "None" ... select the branch from dropdown where respository is created and click save
+
+Step : 09
+Once you click save ... you can see the message "your site is published at 'given url'"
+Wait for a while until it shows green tick
+Once green tick is there you can visualize your site with full functionalities...
+
+Congrats Your Site is Published 
+
+# Using Github Desktop Application
+Repeat step : 01 to step : 03 
+
+Step : 04 
+Download and install "Github Desktop Application"  using https://desktop.github.com/
+
+Step : 05
+Sign in Github desktop application with your github username and password
+
+Step : 06 
+click Add button dropdown and select clone repository
+
+Step : 07
+Select the desired repository and clone
+
+Step : 08
+Now click on "Show in Explorer" (2nd option) to add files on remote repository 
+Once click on "Show in Explorer" copy all your local directory files to github folder
+
+Step : 09
+Write down Short Summary and click Fetch origin it will take a while and will be finished
+
+Step : 10
+refresh your project repo page... you will notify all files would be uploades there
+
+Step : 11
+Go to Settings of your repository and find Github Pages 
+
+Step : 12
+By default it's "None" ... select the branch from dropdown where respository is created and click save
+
+Step : 13
+Once you click save ... you can see the message "your site is published at 'given url'"
+Wait for a while until it shows green tick
+Once green tick is there you can visualize your site with full functionalities...
+
+Congrats Your Site is Published 
