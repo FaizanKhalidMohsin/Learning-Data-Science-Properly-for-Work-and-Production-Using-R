@@ -60,6 +60,10 @@ For tabular data, in general, XGboost tends to always outperform every other mac
 
 __Q2. What is the difference between bias and variance and what is the trade-off?__
 
+Bias is how much your data is systematicly off. 
+
+Bias: Measurements that are systematically off-target, or sample is not representative of population of interest. Observational studies are especially vulnerable to it. Why?
+
 __Q3. What is NoSQL?__
 
 __Q4. What is GraphSQL?__
