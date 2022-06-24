@@ -4,6 +4,14 @@
 
 The first thing to do is to read the data. Now a days data is tyically stored in text/csv, JSON, XML formats. When the data is very large it can also be found stored in "gzip" files that are compressed files like "zip" files and most statistical software can read the data directly from gzip files, removing the need to de-compress the file saving storage space and also increasing speed the data is read. 
 
+Formats like XML and JSON are useful for non-rectangular data but tend to produce larger files that are slower to read and process.
+
+### Data Forms: Long format vs. Wide format
+
+There are two standard forms data is typically found: Long format and wide format. 
+
+As a principal rule, data should always be stored in long format. Long format is the natural way data is inputted into machine learning and statistical models as well as in code for creating visualizations. The only case where I can think of for using wide format is to display the data for a person to view as wide format is a more natural way for people to see the data.
+
 
 ## Basic EDA Steps
 
