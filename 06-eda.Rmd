@@ -1,5 +1,9 @@
 # Exploratory Data Analysis {#eda}
 
+## Read the Data into the Programming Language
+
+The first thing to do is to read the data. Now a days data is tyically stored in text/csv, JSON, XML formats. When the data is very large it can also be found stored in "gzip" files that are compressed files like "zip" files and most statistical software can read the data directly from gzip files, removing the need to de-compress the file saving storage space and also increasing speed the data is read. 
+
 
 ## Basic EDA Steps
 
