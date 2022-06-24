@@ -1,0 +1,62 @@
+# Python {#python}
+
+
+## Basics of Python
+
+
+
+## Data Analysis with Python Using Pandas
+
+For EDA I would recommend looking at the data in its entirety and then to look at each variable individually. 
+
+Many times the dat has too many variables to look at each individual one manually. In such a case choose the most important variables and perform manual EDA on those. We will talk about writing scripts to perform automated EDA much later.
+
+Let me first start on how to look at individual variables. 
+
+1. Write the Title with the variable name.
+2. Find the number of unique values of the variable. Is it less then the total number of rows.
+3. Print the unique values of the variable.
+4. Make a table with the count of the values of the variable.
+5. Find the number of missing values or NA's in the variable. 
+6. You should visualize the count table and include the NA's in the visual. 
+7. All your observations that you think are important about the variable through the tables and visualiations that are interesting, or of note should be written down at the end, before going to the next variable.
+
+Then repeat steps 1 to 7 for the next variable.
+ 
+
+Here is just the list of things and the order in which they should appear in the report for each variable that is important. 
+
+### Step 1
+
+1. Title
+2. Number of unique values
+3. List of unique values
+4. Count table of the values of the variable with percentage counts as well. 
+5. Number of missing values in the variable (i.e. NA's) with percentage counts in the table as well as a table. 
+6. Visualization of the count table including the number of missing values in the variable.
+7. Observations of note about the variable.
+
+To do this in the EDA section of what I believe would be your report you should first write the title with the variable name for example: Looking at VaraibleName in Raw Version.
+
+For points 4 and 5 in step 1, they should appear in the same table ideally, but you could also put step 4 in one table and step 5 in a separate table. Some more detail can be found below:
+
+After that you should print the number of unique values and then print what the unique values are.
+After that you should make a table with the count of the unique values in the variable. Following this, in the same table also show the number of missing values as counts and then the percentage of missingness (missing data) for each value. Lastly, create a visualization for this count table. 
+
+If the variable is continuous then the visualization should be a histogram. If the variable is numeric but not continues, for example discrete like number of houses in a district then the visualization should be a bar chart also call bar graph and bar plot. Finally, if the variable is categorical such as the participant's sex which can be male, female or other, then the visualization should be a bar chart. 
+
+
+### Step 2
+
+When this is done for the chosen variables find the counts as well as the percentage of missing values in all the variables of the data set, and print those as a table.
+
+
+
+
+
+
+
+
+
+
+

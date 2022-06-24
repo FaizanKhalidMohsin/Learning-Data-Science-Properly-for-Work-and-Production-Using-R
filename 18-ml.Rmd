@@ -1,7 +1,7 @@
 # Machine Learning {#ml}
 
 
-
+## Machine Learning Overview
 
 In machine learning the point is always prediction or classification. 
 
@@ -18,6 +18,10 @@ In data science in general there is always a real world question we want to answ
 We have to think how to formulate the real world problem into a machine learning question that can be answered using the data.
 
 So similarly as we decide which variable to choose as the __variable of interest__, i.e. the __target variable__ we also choose which variables to use from the data as the __features__ or __explanatory variables__.
+
+
+## Machine Learning Coding Conventions
+
 
 The data set, which has dimensions N x (p + 1), is first and foremost separated into three groups: train, test, validate. In code we typically label them as dfTrain, dfTest, dfVal. Where dfTrain has number of rows n_train, dfTest has number of rows n_test, and similarly n_val for dfVal. 
 
@@ -43,4 +47,24 @@ is the number of rows.
 X_* will have dimensions n x p where p is the number of __features__ or __explanatory variables__ we want to use to predict the __target variable__. 
 
 How you name these things are we code the __target variable__ as
+
+## Important Ideas and Interview Questions
+
+__Q1. What is the difference between between random forest and xgboost?__
+
+In random forest we grow trees randomly and independently of one another. In fact it is a requirement that the trees are independent. At the end, the predictions from all the trees are averaged to give the final prediction value of the random forest algorithm.
+
+XGboost grows the trees sequentially, with every new tree minimizing the error of the previous tree, hence, creating a sequence of trees that try to fit what the previous trees were not able to fit well. At the end, the predictions from all the trees are averaged to get the final prediction value of the XGboost algorithm.
+
+For tabular data, in general, XGboost tends to always outperform every other machine learning algorithm, including random forest, for predictions.
+
+__Q2. What is the difference between bias and variance and what is the trade-off?__
+
+__Q3. What is NoSQL?__
+
+__Q4. What is GraphSQL?__
+
+__Q5. What is the difference between NoSQL and SQL?__
+
+
 
