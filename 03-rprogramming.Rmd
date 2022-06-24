@@ -12,5 +12,6 @@
 
 ```{r, echo=TRUE, eval=TRUE}
 print("First R lesson.")
+print(23)
 ```
 
