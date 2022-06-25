@@ -10,8 +10,20 @@
 
 ## Basics of R
 
+### Print a string.
 ```{r, echo=TRUE, eval=TRUE}
 print("First R lesson.")
+```
+### print a integer Value.
+
+```{r}
 print(23)
+```
+
+### Print with variable.
+
+```{r}
+x <- "First R lesson."
+x
 ```
 
