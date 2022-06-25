@@ -35,3 +35,13 @@ cat(x, "R lesson.")
 sprintf("%s R lesson.",x)
 ```
 
+## Assign variables
+
+### Using = operator.
+
+```{r}
+x = 23
+x
+```
+
+
