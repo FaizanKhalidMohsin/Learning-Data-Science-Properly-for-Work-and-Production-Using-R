@@ -60,3 +60,11 @@ x
 x
 ```
 
+### Multiple assignments
+
+```{r}
+x<- y<- 23
+x
+y
+```
+
