@@ -52,3 +52,11 @@ x <- "First program."
 x
 ```
 
+### Using -> operator.
+
+
+```{r}
+"First Program." -> x
+x
+```
+
