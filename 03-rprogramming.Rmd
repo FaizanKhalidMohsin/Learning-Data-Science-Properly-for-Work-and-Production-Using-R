@@ -44,4 +44,11 @@ x = 23
 x
 ```
 
+### Using <- operator.
+
+
+```{r}
+x <- "First program."
+x
+```
 
