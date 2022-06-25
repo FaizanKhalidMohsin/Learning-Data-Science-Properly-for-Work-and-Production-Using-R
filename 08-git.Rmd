@@ -22,7 +22,47 @@ I tend to work on two projects at the same time. This is what I found to be very
 So when you have two separate coding projects running and you need to commit and push the changes to the GitHub, the amazing thing is to just have two git bash or terminals open with each being in one project and they run independently of one another. For some applications you cannot have two separate intinces running at the same time doing separate things. 
 
 
-## Git Commands
+
+## How to see which remote repository your local repository is linked to or more explicitely, it is fetching from and pushing to.
+
+Several git command accomplish this, with differing levels of detail. 
+
+The simplest one I find is the following, though it gives a lot of detail.
+
+```{bash, eval=F}
+git config -l
+```
+
+
+There is another one with a little less detail:
+
+```{bash, eval=F}
+git remote show origin
+```
+
+
+Now the below one gives the minimum information: the fetch and push information.
+
+```{bash, eval=F}
+git config -v
+
+```
+
+Finally, there is the command which is the longest in terms of typing out and according to me the hardest to remember, but it gives you the least amount information hence the output is the least verbose.
+
+```{bash, eval=F}
+git config --get remote.origin.url
+
+```
+
+Though it is has one drawback that 
+
+Any of the commands with config in them have the added benefit that you do not need to be connected to the internet (more technically accurate and more precise parlance, you do not need to be on a network that can reach the repo where the origin resides.)
+
+
+
+
+## Git Commands Summary
 
 ```{bash eval=FALSE}
 
