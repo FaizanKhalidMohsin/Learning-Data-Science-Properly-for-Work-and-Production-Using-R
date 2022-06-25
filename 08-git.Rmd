@@ -143,6 +143,14 @@ git push -u origin master
 git clone link
 git pull #to get up to date with others works
 git checkout branch_name #your current opened project will be closed and the one you checkedout will be opened
+
+
+# Commands to find out which remote repo the local repo is linked to
+git config -l
+git config -v
+git remote show origin
+git remote get-url origin
+
 ```
 
 
