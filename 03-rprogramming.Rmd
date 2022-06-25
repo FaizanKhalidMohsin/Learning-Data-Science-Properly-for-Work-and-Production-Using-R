@@ -27,3 +27,11 @@ x <- "First R lesson."
 x
 ```
 
+### Print String with varibale.
+
+```{r}
+x <- "First"
+cat(x, "R lesson.")
+sprintf("%s R lesson.",x)
+```
+
