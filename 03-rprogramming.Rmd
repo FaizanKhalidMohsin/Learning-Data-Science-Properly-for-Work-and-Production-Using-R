@@ -8,3 +8,63 @@
 2. Also, write small chucks of code and run it to see if it works. It will be much easier to debug if there is an error and to find and isolate it. It becomes very difficult to debug code the bigger it gets.
 
 
+## Basics of R
+
+### Print a string.
+```{r, echo=TRUE, eval=TRUE}
+print("First R lesson.")
+```
+### print a integer Value.
+
+```{r}
+print(23)
+```
+
+### Print with variable.
+
+```{r}
+x <- "First R lesson."
+x
+```
+
+### Print String with varibale.
+
+```{r}
+x <- "First"
+cat(x, "R lesson.")
+sprintf("%s R lesson.",x)
+```
+
+## Assign variables
+
+### Using = operator.
+
+```{r}
+x = 23
+x
+```
+
+### Using <- operator.
+
+
+```{r}
+x <- "First program."
+x
+```
+
+### Using -> operator.
+
+
+```{r}
+"First Program." -> x
+x
+```
+
+### Multiple assignments
+
+```{r}
+x<- y<- 23
+x
+y
+```
+
