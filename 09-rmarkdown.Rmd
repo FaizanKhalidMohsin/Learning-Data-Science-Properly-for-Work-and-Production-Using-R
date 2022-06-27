@@ -12,6 +12,78 @@ First of all, I would like to say that markdown is amazing and that R markdown i
 3. Everytime you successfully knit an R markdown file it will save the rendered out put as a separate file in either an html, word, or pdf file format. Hence, you can always open and see your last successfully rendered R markdown report. 
 
 
+
+# Creating a new R Markdown File:
+1. To create an R Markdown file, go to File -> New File -> R Markdown and hit enter.
+2. Enter Title and Author of the document and press ok.
+3. R Markdown file with the extension of .Rmd will appear with default code and comments, which can be removed.
+4. Ctrl+s to save this file and name this R Markdown file accordingly.
+
+# Commands used in R Markdown:
+There are two places to write in R Markdown files:
+
+#### i. Code blocks:
+Text written in the highlighted part/ within \```{r} 
+and \``` is the code.
+#### ii. Comments blocks:
+Remaining text is the comments.
+Different paragraphs should be written with a line differences in the .Rmd file.
+# Writing code in code blocks:
+1. Press ctrl+alt+i to create a block to code in.
+2. Code block will be created having \```{r} 
+\```
+
+#### i. To see both code and output on R Markdown, write code in between \```{r} and 
+#### \``` 
+For example:
+The following code 
+\``` {r} 
+\ summary(cars) 
+\``` 
+will show both code and summary of table cars.
+```{r}
+summary(cars)
+```
+
+#### ii. If we only want to see the output and not the code then write the code between \```{r, 
+#### \ echo=FALSE } 
+#### and 
+#### \```
+For example:
+The following code 
+
+\```
+\ {r , echo=FALSE}
+
+\ summary(cars)
+
+\```
+
+will show the SUMMARY of table cars and not the code.
+
+```{r, echo=FALSE}
+summary(cars)
+```
+
+
+# Writing Comments:
+* Anything that is written out of code block will be considered are comment and will be displayed on the screen.
+
+# Types of Headings in R Markdown:
+* Heading of size 1 can be achieved by writing # before the comment.
+* For heading of size 2, two hash i.e: ## will be written before the comment and so on till heading 6. 
+e.g: 
+
+# This is written in Heading size 1. In html is h1.
+## This is written in Heading size 2. In html is h2.
+### This is written in Heading size 3. In html is h3.
+#### This is written in Heading size 4. In html is h4.
+##### This is written in Heading size 5. In html is h5.
+###### This is written in Heading size 6. In html is h6.
+
+
+
+
 ## Sample paragraph displaying R Markdown capabilities
 
 We describe our methods in this chapter.

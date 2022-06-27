@@ -1,0 +1,74 @@
+# Machine Learning {#ml}
+
+
+## Machine Learning Overview
+
+In machine learning the point is always prediction or classification. 
+
+Machine learning is divided into supervised learning or unsupervised learning. 
+
+In supervised learning we have the outcome variable in the data set as well as the variables of interest called features, 
+
+The __outcome variable__ also called the __target variable__, also called the __variable of interest__, __dependent variables__, etc. We choose this variable from the data set. We determine what is of interest to us and what variable will be the best choice for whatever question we are trying to answer or address. 
+
+The __features__ (computer science lingo) are also called __covariates__ (statistical lingo), __explanatory variables__ (statistical lingo), __predictive variables__ (statistical lingo), __independent variables__ (statistical lingo).
+
+In data science in general there is always a real world question we want to answer using the data that we have. We then look at the data and think of which variable in the data set will be the best option for answering the question we are interested in.
+
+We have to think how to formulate the real world problem into a machine learning question that can be answered using the data.
+
+So similarly as we decide which variable to choose as the __variable of interest__, i.e. the __target variable__ we also choose which variables to use from the data as the __features__ or __explanatory variables__.
+
+
+## Machine Learning Coding Conventions
+
+
+The data set, which has dimensions N x (p + 1), is first and foremost separated into three groups: train, test, validate. In code we typically label them as dfTrain, dfTest, dfVal. Where dfTrain has number of rows n_train, dfTest has number of rows n_test, and similarly n_val for dfVal. 
+
+Therefore n_train + n_test + n_val = N
+
+Further:
+
+1. n_train = n * .5
+2. n_test  = n * .25
+3. n_val   = n * .25
+
+Further, these three are separated into __target variable__ __features__ and label them in the code as follows: 
+
+1. y_train (n_train x 1) and X_train (n_train x p)
+2. y_test (n_test x 1) and X_test (n_test x p)
+3. y_val (n_val x 1) and X_val (n_val x p)
+
+
+
+Where the y_* variables are a vectors or 1 dimensional columns. It has the same number of rows as the number of rows in the __cleaned and transformed__ data set. So the dimensions of y_* will be n x 1 where n
+is the number of rows. 
+
+X_* will have dimensions n x p where p is the number of __features__ or __explanatory variables__ we want to use to predict the __target variable__. 
+
+How you name these things are we code the __target variable__ as
+
+## Important Ideas and Interview Questions
+
+__Q1. What is the difference between between random forest and xgboost?__
+
+In random forest we grow trees randomly and independently of one another. In fact it is a requirement that the trees are independent. At the end, the predictions from all the trees are averaged to give the final prediction value of the random forest algorithm.
+
+XGboost grows the trees sequentially, with every new tree minimizing the error of the previous tree, hence, creating a sequence of trees that try to fit what the previous trees were not able to fit well. At the end, the predictions from all the trees are averaged to get the final prediction value of the XGboost algorithm.
+
+For tabular data, in general, XGboost tends to always outperform every other machine learning algorithm, including random forest, for predictions.
+
+__Q2. What is the difference between bias and variance and what is the trade-off?__
+
+Bias is how much your data is systematicly off. 
+
+Bias: Measurements that are systematically off-target, or sample is not representative of population of interest. Observational studies are especially vulnerable to it. Why?
+
+__Q3. What is NoSQL?__
+
+__Q4. What is GraphSQL?__
+
+__Q5. What is the difference between NoSQL and SQL?__
+
+
+
