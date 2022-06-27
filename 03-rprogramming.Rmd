@@ -78,3 +78,16 @@ statement
 
 ```
 
+Function  for x power y
+
+```{r}
+pow <- function(x, y) {
+result <- x^y
+print(paste(x,"raised to the power", y, "is", result))
+}
+```
+
+```{r}
+pow(4,3)
+```
+
