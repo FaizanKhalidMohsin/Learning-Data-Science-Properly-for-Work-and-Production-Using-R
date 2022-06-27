@@ -108,6 +108,14 @@ Libraries have multiple functions that have specific instructions to perform tas
 ## Plots with ggplot
 
 ```{r}
-#library(tidyvers)
+library(ggplot2)
+head(iris)
+```
+
+### Barplot
+
+```{r}
+ggplot(data = iris, aes(x = Sepal.Length, y = Species)) +
+    geom_bar(stat= "identity")
 ```
 
