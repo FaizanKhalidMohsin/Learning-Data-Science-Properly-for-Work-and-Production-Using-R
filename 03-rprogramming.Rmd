@@ -68,3 +68,13 @@ x
 y
 ```
 
+
+## Wrting Basic functions.
+
+```{r}
+f_Name <- function (argument) {
+statement
+}
+
+```
+
