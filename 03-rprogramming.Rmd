@@ -118,4 +118,19 @@ head(iris)
 ggplot(data = iris, aes(x = Sepal.Length, y = Species)) +
     geom_bar(stat= "identity")
 ```
+### point with ggplot2.
+
+```{r}
+plot <- ggplot(data = iris, aes(x = Sepal.Length, y = Species)) 
+    plot+
+    geom_point()
+```
+
+### Boxplot with ggplot2
+
+```{r}
+plot+
+  geom_boxplot()
+
+```
 
