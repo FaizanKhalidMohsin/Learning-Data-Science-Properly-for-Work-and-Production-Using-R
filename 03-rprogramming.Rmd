@@ -69,7 +69,7 @@ y
 ```
 
 
-## Wrting Basic functions.
+## Writing Basic functions.
 
 ```{r}
 f_Name <- function (argument) {
@@ -118,6 +118,9 @@ head(iris)
 ggplot(data = iris, aes(x = Sepal.Length, y = Species)) +
     geom_bar(stat= "identity")
 ```
+
+
+
 ### point with ggplot2.
 
 ```{r}
@@ -133,4 +136,6 @@ plot+
   geom_boxplot()
 
 ```
+
+
 
