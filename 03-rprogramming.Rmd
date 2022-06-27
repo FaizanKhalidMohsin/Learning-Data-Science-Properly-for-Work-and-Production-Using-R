@@ -78,16 +78,36 @@ statement
 
 ```
 
-Function  for x power y
+### Function  for x power y
 
 ```{r}
-pow <- function(x, y) {
-result <- x^y
-print(paste(x,"raised to the power", y, "is", result))
+power <- function(x, y) {
+  p <- x^y
+print(paste(x,"raised to the power", y, "is", p))
 }
 ```
 
+### Example
+
 ```{r}
-pow(4,3)
+power(4,3)
+```
+
+## Working with libraries.
+
+Libraries have multiple functions that have specific instructions to perform tasks.
+ 
+### How to install packages. 
+
+
+```{r}
+#install.packages()
+```
+
+
+## Plots with ggplot
+
+```{r}
+#library(tidyvers)
 ```
 
