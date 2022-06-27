@@ -1,7 +1,7 @@
 --- 
 title: "All About R and R Applications"
 author: "Faizan Khalid Mohsin"
-date: "`r Sys.Date()`"
+date: "2022-06-27"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -59,76 +59,131 @@ Placeholder
 ## Basics of R
 
 ### Print a string.
-```{r, echo=TRUE, eval=TRUE}
+
+```r
 print("First R lesson.")
+```
+
+```
+## [1] "First R lesson."
 ```
 ### print a integer Value.
 
-```{r}
+
+```r
 print(23)
+```
+
+```
+## [1] 23
 ```
 
 ### Print with variable.
 
-```{r}
+
+```r
 x <- "First R lesson."
 x
 ```
 
+```
+## [1] "First R lesson."
+```
+
 ### Print String with varibale.
 
-```{r}
+
+```r
 x <- "First"
 cat(x, "R lesson.")
+```
+
+```
+## First R lesson.
+```
+
+```r
 sprintf("%s R lesson.",x)
+```
+
+```
+## [1] "First R lesson."
 ```
 
 ## Assign variables
 
 ### Using = operator.
 
-```{r}
+
+```r
 x = 23
 x
+```
+
+```
+## [1] 23
 ```
 
 ### Using <- operator.
 
 
-```{r}
+
+```r
 x <- "First program."
 x
+```
+
+```
+## [1] "First program."
 ```
 
 ### Using -> operator.
 
 
-```{r}
+
+```r
 "First Program." -> x
 x
 ```
 
+```
+## [1] "First Program."
+```
+
 ### Multiple assignments
 
-```{r}
+
+```r
 x<- y<- 23
 x
+```
+
+```
+## [1] 23
+```
+
+```r
 y
+```
+
+```
+## [1] 23
 ```
 
 
 ## Wrting Basic functions.
 
-```{r}
+
+```r
 f_Name <- function (argument) {
 statement
 }
-
 ```
 
 ### Function  for x power y
 
-```{r}
+
+```r
 power <- function(x, y) {
   p <- x^y
 print(paste(x,"raised to the power", y, "is", p))
@@ -137,8 +192,13 @@ print(paste(x,"raised to the power", y, "is", p))
 
 ### Example
 
-```{r}
+
+```r
 power(4,3)
+```
+
+```
+## [1] "4 raised to the power 3 is 64"
 ```
 
 ## Working with libraries.
@@ -148,39 +208,59 @@ Libraries have multiple functions that have specific instructions to perform tas
 ### How to install packages. 
 
 
-```{r}
+
+```r
 #install.packages()
 ```
 
 
 ## Plots with ggplot
 
-```{r}
+
+```r
 library(ggplot2)
 head(iris)
 ```
 
+```
+##   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+## 1          5.1         3.5          1.4         0.2  setosa
+## 2          4.9         3.0          1.4         0.2  setosa
+## 3          4.7         3.2          1.3         0.2  setosa
+## 4          4.6         3.1          1.5         0.2  setosa
+## 5          5.0         3.6          1.4         0.2  setosa
+## 6          5.4         3.9          1.7         0.4  setosa
+```
+
 ### Barplot
 
-```{r}
+
+```r
 ggplot(data = iris, aes(x = Sepal.Length, y = Species)) +
     geom_bar(stat= "identity")
 ```
+
+<img src="bookdown-demo_files/figure-html/unnamed-chunk-14-1.png" width="672" />
 ### point with ggplot2.
 
-```{r}
+
+```r
 plot <- ggplot(data = iris, aes(x = Sepal.Length, y = Species)) 
     plot+
     geom_point()
 ```
 
+<img src="bookdown-demo_files/figure-html/unnamed-chunk-15-1.png" width="672" />
+
 ### Boxplot with ggplot2
 
-```{r}
+
+```r
 plot+
   geom_boxplot()
-
 ```
+
+<img src="bookdown-demo_files/figure-html/unnamed-chunk-16-1.png" width="672" />
 
 
 <!--chapter:end:03-rprogramming.Rmd-->
@@ -322,9 +402,9 @@ Some _significant_ applications are demonstrated in this chapter.
 
 <!--chapter:end:19-applications.Rmd-->
 
-`r if (knitr:::is_html_output()) '
+
 # References {-}
-'`
+
 
 <!--chapter:end:20-references.Rmd-->
 
