@@ -175,7 +175,7 @@ PR Example:
 
 {Add what the description of what was done in the description of the PR. Example below:}
 
-Qauge location changed from beside graph to the top.
+Gauge location changed from beside graph to the top.
 
 {You also need to indicate if your code has any errors, warnings, and if it is working fine. See below:}
 No  errors,
