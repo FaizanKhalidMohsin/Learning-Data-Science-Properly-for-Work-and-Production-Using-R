@@ -63,7 +63,7 @@ Any of the commands with config in them have the added benefit that you do not n
 
 Most branches you will create will add some feature to the code. What feature to add will be assigned and described in the jira ticket. Jira ticket will be of the form: CS-150. 
 
-Therefore, the name convention for a branch as above would be like this: feature/CS-150
+Therefore, the name convention for a branch as above would be like this: feature/CS-150. Please not that the 'f' in feature needs to be lower case - not 'F' like Feature/CS-150.
 
 This is the branch name. Notice, the first thing is what type of edit is being done, followed by forward slash and lastly the jira ticket. 
 
