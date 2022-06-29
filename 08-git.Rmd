@@ -59,7 +59,15 @@ Though it is has one drawback that
 
 Any of the commands with config in them have the added benefit that you do not need to be connected to the internet (more technically accurate and more precise parlance, you do not need to be on a network that can reach the repo where the origin resides.)
 
+### How to name git branches.
 
+Most branches you will create will add some feature to the code. What feature to add will be assigned and described in the jira ticket. Jira ticket will be of the form: CS-150. 
+
+Therefore, the name convention for a branch as above would be like this: feature/CS-150
+
+This is the branch name. Notice, the first thing is what type of edit is being done, followed by forward slash and lastly the jira ticket. 
+
+Other types of code edits could be 'debug' or 'test' instead of feature. Thus, thos branches would be named as follows: debug/CS-150 or test/CS-150
 
 
 ## Git Commands Summary
@@ -160,14 +168,16 @@ no push in develop
 
 
 # Pull Requests
- The name of pull request should be the Jira Ticket, e.g. feature/CS-104
+
+The name of pull request should be the name of the branch, e.g. feature/CS-104. To be explicit it should be first the type of edit: feature, test, debug, followed by forward slash then by the Jira Ticket name.
  
 PR Example:
 
-PR made, please review.
+{Add what the description of what was done in the description of the PR. Example below:}
 
-QC-21 gauge location changed from beside graph to top.
+Qauge location changed from beside graph to the top.
 
+{You also need to indicate if your code has any errors, warnings, and if it is working fine. See below:}
 No  errors,
 No warnings,
 App working fine.
