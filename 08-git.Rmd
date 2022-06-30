@@ -1,8 +1,24 @@
-# Git and Git Hub {#git}
+## Folder Organization
+
+Spending a few seconds to properly name your folders and files will help you find your files more quickly later and it will look more professional.
+Following are some points you should always keep in mind when creating & organizing folders and files.
+
+**Point 1** Place the document in a single local drive.
+
+**Point 2** Place all the documents related to a single project under a single “root folder”.
+
+**Point 3** Being consistent in naming your folder by following a naming format will make it easier for you identify the correct folder especially if you have different projects of same company at a time. Choose a naming format and stick with it.
+e.g. Company Name Project Name Date.
+
+**Point 4** Some operating systems (such as Unix) do not allow spaces in file or folder names, so avoid this if your computing environment is mixed. Instead, use the underscores as a delimiter (e.g. Doe_John_Proposal.doc.) Other characters such as / ? < > \ : * | " ^ are also prohibited in file or folder names under Windows.
+
+**Point 5** Use camel case.
+
+**Point 6** Be descriptive in name but keep it short and logical.  Don't go overboard - file/path names have length limits which vary between operating systems. Under Windows the maximum full path length for a file (e.g. the drive letter + folder names + file name) is 260 characters.
+
+Use common abbreviations wherever possible, such as Jan for January or Corp for Corporation. The goal when naming files is to be able to tell what the file is about without having to open it and look.# Git and Git Hub {#git}
 
 First of all, I would like to say that command line and linux are amazing. It does things so simply and so easily it is almost as if you wave a hand a your room gets cleaned. You make a few hand gestures and wood, stone, and metal come together and assemble themselves into the frame of the house you have in mind. The ratio of the amount of effort you put in, the simplisity of the instructions and the accuracy of the execution to not what you say, but what you actually want is a kin to that of magic. So I write this ode in praise of the command line, Linux, and its predecessor Unix. 
-
-## Folder Organiztion
 
 
 ## The Command Line
@@ -88,11 +104,21 @@ git clone #{repository URL}
 
 # Create new local branch that you will work on. 
 
+After cloning a remote repository to your local drive & before working on it you should create a branch in your local repository with Git Bash. If you don't do that it will create an error called "Merge conflict" with main branch.
+
+# Step 0: Open "Git Bash" in where you cloned the remmote repo.
+
+# Step 1: Type command 
+git branch branch_name.
+
+# Step 2: To switch among branches 
+git checkout branch_name.
+
+# Step 3: To check in which branch currently working in/list of all branches 
+git branch. 
+
+
 git branch branch_name #creates-new-branch
-# Run command:
-git branch # Creates new branch.
-# Checkout into the new branch. Move into new branch
-git checkout branch_name
 
 
 # Publish branch created in local repo to GitHub repo. 
