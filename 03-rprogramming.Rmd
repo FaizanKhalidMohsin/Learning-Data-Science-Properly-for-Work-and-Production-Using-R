@@ -152,7 +152,17 @@ In simple we can say that it makes every step easy.
              Arrange the data.
 #### select()
              Use to select variable.
-#### rename 
+#### rename()
            Use to rename variable name.
-#### mutate
+#### mutate()
            Use to create a new column.
+           
+## Introduction to tidyverse package.
+
+Tidyverse contains other 7 packages in it.
+```{r}
+library(tidyverse)
+```
+
+
+
