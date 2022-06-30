@@ -146,9 +146,10 @@ In simple we can say that it makes every step easy.
 
 #### filter()
             Filter data from any variable by choosing specific rows.
-
-####slice()
+#### slice()
            Choose rows based on location.
-
-
-
+#### arrange()
+             Arrange the data.
+#### select()
+             Use to select variable.
+  
