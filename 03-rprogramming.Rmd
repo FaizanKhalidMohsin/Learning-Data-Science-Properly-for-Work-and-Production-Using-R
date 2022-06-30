@@ -137,5 +137,18 @@ plot+
 
 ```
 
+## Introduction to dplyr library
+
+When we are working with data it is very important to know about dplyr.
+In simple we can say that it makes every step easy.
+
+### Data manupulation with dplyr
+
+#### filter()
+            Filter data from any variable by choosing specific rows.
+
+####slice()
+           Choose rows based on location.
+
 
 
