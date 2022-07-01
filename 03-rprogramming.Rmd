@@ -165,5 +165,5 @@ library(tidyverse)
 ```
 
 Tidyverse is actually an R package that helps with data transformations and presentation.
-The whole point of tidyverse is to improve productivity and improve the application of data science using R.
+The whole point of tidyverse is to improve productivity and improve the application of data science using R.The purpose of tidyverse is to provide key data transformation functions in a single package. The purpose of tidyverse is to provide key data transformation functions in a single package. 
 
