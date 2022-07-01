@@ -164,5 +164,6 @@ Tidyverse contains other 7 packages in it.
 library(tidyverse)
 ```
 
-
+Tidyverse is actually an R package that helps with data transformations and presentation.
+The whole point of tidyverse is to improve productivity and improve the application of data science using R.
 
