@@ -2,7 +2,7 @@
 
 ## Read the Data into the Programming Language
 
-The first thing to do is to read the data. Now a days data is tyically stored in text/csv, JSON, XML formats. When the data is very large it can also be found stored in "gzip" files that are compressed files like "zip" files and most statistical software can read the data directly from gzip files, removing the need to de-compress the file saving storage space and also increasing speed the data is read. 
+The first thing to do is to read the data. Now a days data is typically stored in text/csv, JSON, XML formats. When the data is very large it can also be found stored in "gzip" files that are compressed files like "zip" files and most statistical software can read the data directly from gzip files, removing the need to de-compress the file saving storage space and also increasing speed the data is read. 
 
 Formats like XML and JSON are useful for non-rectangular data but tend to produce larger files that are slower to read and process.
 
@@ -17,7 +17,7 @@ As a principal rule, data should always be stored in long format. Long format is
 
 For EDA I would recommend looking at the data in its entirety and then to look at each variable individually. 
 
-Many times the dat has too many variables to look at each individual one manually. In such a case choose the most important variables and perform manual EDA on those. We will talk about writing scripts to perform automated EDA much later.
+Many times the data has too many variables to look at each individual one manually. In such a case choose the most important variables and perform manual EDA on those. We will talk about writing scripts to perform automated EDA much later.
 
 Let me first start on how to look at individual variables. 
 
@@ -27,7 +27,7 @@ Let me first start on how to look at individual variables.
 4. Make a table with the count of the values of the variable.
 5. Find the number of missing values or NA's in the variable. 
 6. You should visualize the count table and include the NA's in the visual. 
-7. All your observations that you think are important about the variable through the tables and visualiations that are interesting, or of note should be written down at the end, before going to the next variable.
+7. All your observations that you think are important about the variable through the tables and visualizations that are interesting, or of note should be written down at the end, before going to the next variable.
 
 Then repeat steps 1 to 7 for the next variable.
  
@@ -44,7 +44,7 @@ Here is just the list of things and the order in which they should appear in the
 6. Visualization of the count table including the number of missing values in the variable.
 7. Observations of note about the variable.
 
-To do this in the EDA section of what I believe would be your report you should first write the title with the variable name for example: Looking at VaraibleName in Raw Version.
+To do this in the EDA section of what I believe would be your report you should first write the title with the variable name for example: Looking at Variable Name in Raw Version.
 
 For points 4 and 5 in step 1, they should appear in the same table ideally, but you could also put step 4 in one table and step 5 in a separate table. Some more detail can be found below:
 
@@ -58,4 +58,56 @@ If the variable is continuous then the visualization should be a histogram. If t
 
 When this is done for the chosen variables find the counts as well as the percentage of missing values in all the variables of the data set, and print those as a table.
 
+
+## Intro to Tidy Verse Package
+
+After loading the data, it is necessary to ensure that our data is in tidy format. By this we simply means that the data follows the following three interrelated rules which make a data set tidy:
+
+1. Each variable must have its own column. 
+
+2. Each observation must have its own row. 
+
+3. Each value must have its own cell. 
+
+To achieve these three golden rules and more, we use Tidyverse package.
+
+**Tidyverse** is a powerful collection of R packages that are actually
+data tools for transforming and visualizing data. All packages of the
+tidyverse share an underlying philosophy and common APIs.
+
+The core packages are:
+
+* **ggplot2** which implements the grammar of graphics. You can use it
+ to visualize your data.
+
+* **dplyr** is a grammar of data manipulation. You can use it to solve the
+ most common data manipulation challenges.
+
+* **tidyr** helps you to create tidy data or data where each variable is in a column, each observation is a row end each value is a cell.
+
+* **readr** is a fast and friendly way to read rectangular data.
+
+* **purr** enhances R’s functional programming (FP) toolkit by providing a
+complete and consistent set of tools for working with functions and vectors.
+
+* **tibble** is a modern re-imaginging of the data frame.
+
+* **stringr** provides a cohesive set of functions designed to make
+ working with strings as easy as posssible
+
+* **forcats** provide a suite of useful tools that solve common problems
+ with factors.
+
+**As Tidyverse provides a complete framework for Data Manipulation, Analysis and Visualization, we will use it through out this course.**
+
+You can install the complete tidyverse with:
+
+*install.packages("tidyverse")*
+
+Then, load the core tidyverse and make it available in your current R
+session by running:
+
+```{r,warning=FALSE,message=FALSE}
+library(tidyverse)
+```
 
