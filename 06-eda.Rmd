@@ -111,3 +111,85 @@ session by running:
 library(tidyverse)
 ```
 
+Now we see tidy verse in action by using a data set : "Iris"
+
+## Loading Data in R
+
+```{r}
+#loading data in R
+iris <- read.csv("C:/Users/Z Book/Downloads/archive/Iris.csv",stringsAsFactors = TRUE)
+#make data as tibble object
+data <- as_tibble(iris)
+```
+After loading the data into R, we make it as tibble object so that we can apply *dplyr* operations on the data frame.
+
+The first step after loading data is to see the head of the data. This allows us to see first six rows of data frame.
+```{r}
+head(data)
+```
+We see that Iris data set has 6 variables. The data set contains information of Length and Width of a flower's Sepal and Petal. It also important to know the total number of rows in the data frame.
+
+```{r}
+nrow(data)
+```
+The iris data set has 150 rows and 6 columns.
+
+Next we see the summary statistics of the data. The summary function in R provides descriptive statistics of the data frame. These statistics include : Min, Max, Median and Mean.
+
+```{r}
+summary(data)
+```
+Note, the summary() function provided the statistics of all numeric variables. The species variable which is a categorical column was ignored by R. 
+
+Now we use Dplyr for applying different functions on our data frame.
+
+## Dplyr
+
+### Filter
+
+filter() allows you to select a subset of rows in a data frame.
+
+```{r}
+#Select iris data of species "Setosa"
+data %>% 
+     filter(Species =="Iris-setosa")
+```
+### Arrange
+
+arrange() sorts the observations in a data set in ascending or descending order based on one of its variables.
+
+```{r}
+#Sort in ascending order of sepal length
+data %>%
+     arrange(SepalLengthCm)
+```
+Similarly we can arrange the data in descending order.
+
+```{r}
+#Sort in descending order of sepal length
+data %>%
+     arrange(desc(SepalLengthCm))
+```
+### Mutate 
+
+mutate() allows you to update or create new columns of a data frame.
+
+```{r}
+#create a new variable "SepalLengthMm" which converts the sepal length in millimeters. 
+sepal_length_converted <- data %>%
+     mutate(SepalLengthMm =SepalLengthCm*10)
+#show the converted column
+sepal_length_converted$SepalLengthMm
+```
+There are other verbs provided by Dplyr for data manipulation such as : 
+**summarize()** allows you to turn many observations into a single data point.
+**groupby()** allows you to summarize within groups instead of summarizing the entire dataset.
+
+We also make a simple scatterplot. Since Tidyverse includes ggplot package init so there is no need to import the package seperately
+```{r}
+#Compare petal width and length
+ggplot(data, aes(x = PetalLengthCm, y = PetalWidthCm, color = Species))+ geom_point()
+```
+
+
+
