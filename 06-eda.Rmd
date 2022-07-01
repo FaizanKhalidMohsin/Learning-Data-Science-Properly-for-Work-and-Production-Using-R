@@ -190,6 +190,3 @@ We also make a simple scatterplot. Since Tidyverse includes ggplot package init 
 #Compare petal width and length
 ggplot(data, aes(x = PetalLengthCm, y = PetalWidthCm, color = Species))+ geom_point()
 ```
-
-
-
