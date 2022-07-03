@@ -1,0 +1,18 @@
+# Interview Questions {#interviewquestions}
+
+
+## Amazon Data Science Questions
+
+Question curated from Glassdoors on 2022-07-02
+
+- Can you write SQL and Python
+
+- What do you do in your current position?
+
+- Do you have experience with data tokenization?
+
+- How would you deal with an imbalanced dataset?
+
+- Explain one of several unsupervised learning algorithms
+
+
