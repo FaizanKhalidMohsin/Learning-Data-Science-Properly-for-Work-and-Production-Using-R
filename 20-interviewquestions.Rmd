@@ -3,6 +3,9 @@
 
 ## Amazon Data Science Questions
 
+Link: https://www.glassdoor.ca/Interview/Amazon-Data-Scientist-Interview-Questions-EI_IE6036.0,6_KO7,21_IP2.htm?filter.jobTitleFTS=Data+Scientist
+
+
 Question curated from Glassdoors on 2022-07-02
 
 - Can you write SQL and Python
@@ -14,5 +17,49 @@ Question curated from Glassdoors on 2022-07-02
 - How would you deal with an imbalanced dataset?
 
 - Explain one of several unsupervised learning algorithms
+
+- Explain random forest, discuss its pros and cons
+
+- How to interpret OLS Regression output?
+
+- Explain confidence intervals.
+
+- Diff techniques to assess multicollinearity (correlation, VIF, tolerance etc)
+
+- Explain unsupervised learning techniques which do not involve clustering
+
+- How to decide k value in KNN
+
+- Explain p-value
+
+- To write a query from a table using Group By statement.
+
+Review 1 - Accepted Offer - Positive Experience - Average Interview
+
+There were 3 rounds : first, a general resume based. Second, machine learning related basic questions, and third was the live coding round on python and SQL. Each round consist of 2-3 leadership principles questions towards the end.
+
+1. How to decide k value in KNN
+2. Explain unsupervised learning techniques which do not involve clustering
+3. Diff techniques to assess multicollinearity (correlation, VIF, tolerance etc)
+
+Review 2 - Accepted Offer - Positive Experience - Average Interview
+
+The whole process took 2+ months.
+I applied online for L4 and was contacted by the recruiter the next day. I was scheduled a phone screen interview. Upon passing that I was scheduled an Amazon loop interview consisting for 5 interviews back-to-back. After about 5 days I was notified that I passed and was upgraded to L5. A week after that I was matched with my future team and sent an offer, which I accepted.
+Throughout the whole process the recruiter acted professional and kept me updated at each step. The team was very friendly. Overall, the best interview experience I'd had.
+
+"Tell me about the time..." questions.
+SQL easy to medium questions.
+How to interpret OLS Regression output?
+Explain confidence intervals.
+Business acumen kind of questions.
+
+Review 3 - N O - P E - A I
+
+It was basically total four round,
+1) Resume Verification : Internship, Good Project on Machine Learning or Deep Learning
+2) Technical Round: Basic ML Algorithms and math behind them
+3) Coding Round: Python or SQL
+4) HR Round
 
 
