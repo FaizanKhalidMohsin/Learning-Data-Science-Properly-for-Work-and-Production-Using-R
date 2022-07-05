@@ -19,6 +19,20 @@ We have to think how to formulate the real world problem into a machine learning
 
 So similarly as we decide which variable to choose as the __variable of interest__, i.e. the __target variable__ we also choose which variables to use from the data as the __features__ or __explanatory variables__.
 
+There are two main methods to machine learning / statistical machine learning: parametric and non-parametric. Both have advantages and disadvantages.
+
+### Trade-off Between Prediction Accuray and Model Interpretability.
+
+### Trade-off Between Bias and Variance.
+
+The bias and variance trade-off for a model can be thought of in terms of how flexible the model is versus how accurate the model is. The more we increase the model's flexibility the better it is likely to generalize and decrease the testing or production error, but will decrease the overall general accuracy of the model. 
+
+So one reason to have less flexible model is to decrease the overfitting of the model. 
+
+Another reason to have less flexible model would be if the goal is inference and interpretation of the model. Less flexible models are more interpretable.
+
+
+
 
 ## Machine Learning Coding Conventions
 
