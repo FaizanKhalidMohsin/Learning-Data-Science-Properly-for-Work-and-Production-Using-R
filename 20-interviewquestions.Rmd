@@ -1,0 +1,131 @@
+# Interview Questions {#interviewquestions}
+
+
+## Intact Senior Data Scientist Questions for Technical Test
+
+There will be three coding questions and eleven on machine learning and statistics.
+
+The coding questions:
+1. Vector Compression
+2. Cross Validation
+3. Bag of words features
+
+The theoretical machine learning questions
+
+The topics will include Clustering, A/B testing, DT(?)
+
+Perhaps she also mentioned random forest. 
+
+### Check on Glassdoors to see if there are any questions available there.
+
+1. The questions are not quite hard, which will cover from python to simple algorithm in machine learning. 
+
+2. I think mine has something in NLP.
+
+3. How to improve the performance of your model?
+
+4. Describe your previous projects.
+
+5. statistics and machine learning theory questions & use case scenarios of real projects.
+
+6. Cross validation, overfitting, python programing.
+
+7. Why did you choose to apply for Intact? 
+
+- The position and type of work.
+
+8. They ask me mostly about modelling
+
+9.1. How do you manage stress and pressure when you have a lot to do in different projects? Give an example.
+
+9.2 Name one time you came up with a creative solution to a problem.
+
+9.3 What is a good service to you? As in customer service. Give an example.
+
+9.4 What data science technology you think has the potential to change the world and in what field?
+
+
+## Amazon Data Science Questions
+
+Link: https://www.glassdoor.ca/Interview/Amazon-Data-Scientist-Interview-Questions-EI_IE6036.0,6_KO7,21_IP2.htm?filter.jobTitleFTS=Data+Scientist
+
+
+Question curated from Glassdoors on 2022-07-02
+
+- Can you write SQL and Python
+
+- What do you do in your current position?
+
+- Do you have experience with data tokenization?
+
+- How would you deal with an imbalanced dataset?
+
+- Explain one of several unsupervised learning algorithms
+
+- Explain random forest, discuss its pros and cons
+
+- How to interpret OLS Regression output?
+
+- Explain confidence intervals.
+
+- Diff techniques to assess multicollinearity (correlation, VIF, tolerance etc)
+
+- Explain unsupervised learning techniques which do not involve clustering
+
+- How to decide k value in KNN
+
+- Explain p-value
+
+- To write a query from a table using Group By statement.
+
+Review 1 - Accepted Offer - Positive Experience - Average Interview
+
+There were 3 rounds : first, a general resume based. Second, machine learning related basic questions, and third was the live coding round on python and SQL. Each round consist of 2-3 leadership principles questions towards the end.
+
+1. How to decide k value in KNN
+2. Explain unsupervised learning techniques which do not involve clustering
+3. Diff techniques to assess multicollinearity (correlation, VIF, tolerance etc)
+
+Review 2 - Accepted Offer - Positive Experience - Average Interview
+
+The whole process took 2+ months.
+I applied online for L4 and was contacted by the recruiter the next day. I was scheduled a phone screen interview. Upon passing that I was scheduled an Amazon loop interview consisting for 5 interviews back-to-back. After about 5 days I was notified that I passed and was upgraded to L5. A week after that I was matched with my future team and sent an offer, which I accepted.
+Throughout the whole process the recruiter acted professional and kept me updated at each step. The team was very friendly. Overall, the best interview experience I'd had.
+
+"Tell me about the time..." questions.
+SQL easy to medium questions.
+How to interpret OLS Regression output?
+Explain confidence intervals.
+Business acumen kind of questions.
+
+Review 3 - N O - P E - A I
+
+It was basically total four round,
+1) Resume Verification : Internship, Good Project on Machine Learning or Deep Learning
+2) Technical Round: Basic ML Algorithms and math behind them
+3) Coding Round: Python or SQL
+4) HR Round
+
+## Important Ideas and Interview Questions
+
+__Q1. What is the difference between between random forest and xgboost?__
+
+In random forest we grow trees randomly and independently of one another. In fact it is a requirement that the trees are independent. At the end, the predictions from all the trees are averaged to give the final prediction value of the random forest algorithm.
+
+XGboost grows the trees sequentially, with every new tree minimizing the error of the previous tree, hence, creating a sequence of trees that try to fit what the previous trees were not able to fit well. At the end, the predictions from all the trees are averaged to get the final prediction value of the XGboost algorithm.
+
+For tabular data, in general, XGboost tends to always outperform every other machine learning algorithm, including random forest, for predictions.
+
+__Q2. What is the difference between bias and variance and what is the trade-off?__
+
+Bias is how much your data is systematically off. 
+
+Bias: Measurements that are systematically off-target, or sample is not representative of population of interest. Observational studies are especially vulnerable to it. Why?
+
+__Q3. What is NoSQL?__
+
+__Q4. What is GraphSQL?__
+
+__Q5. What is the difference between NoSQL and SQL?__
+
+
