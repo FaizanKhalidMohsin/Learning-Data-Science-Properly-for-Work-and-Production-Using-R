@@ -1,6 +1,50 @@
 # Interview Questions {#interviewquestions}
 
 
+## Intact Senior Data Scientist Questions for Technical Test
+
+There will be three coding questions and eleven on machine learning and statistics.
+
+The coding questions:
+1. Vector Compression
+2. Cross Validation
+3. Bag of words features
+
+The theoretical machine learning questions
+
+The topics will include Clustering, A/B testing, DT(?)
+
+Perhaps she also mentioned random forest. 
+
+### Check on Glassdoors to see if there are any questions available there.
+
+1. The questions are not quite hard, which will cover from python to simple algorithm in machine learning. 
+
+2. I think mine has something in NLP.
+
+3. How to improve the performance of your model?
+
+4. Describe your previous projects.
+
+5. statistics and machine learning theory questions & use case scenarios of real projects.
+
+6. Cross validation, overfitting, python programing.
+
+7. Why did you choose to apply for Intact? 
+
+- The position and type of work.
+
+8. They ask me mostly about modelling
+
+9.1. How do you manage stress and pressure when you have a lot to do in different projects? Give an example.
+
+9.2 Name one time you came up with a creative solution to a problem.
+
+9.3 What is a good service to you? As in customer service. Give an example.
+
+9.4 What data science technology you think has the potential to change the world and in what field?
+
+
 ## Amazon Data Science Questions
 
 Link: https://www.glassdoor.ca/Interview/Amazon-Data-Scientist-Interview-Questions-EI_IE6036.0,6_KO7,21_IP2.htm?filter.jobTitleFTS=Data+Scientist
@@ -83,3 +127,5 @@ __Q3. What is NoSQL?__
 __Q4. What is GraphSQL?__
 
 __Q5. What is the difference between NoSQL and SQL?__
+
+
