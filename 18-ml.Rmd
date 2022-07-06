@@ -32,6 +32,13 @@ So one reason to have less flexible model is to decrease the overfitting of the 
 Another reason to have less flexible model would be if the goal is inference and interpretation of the model. Less flexible models are more interpretable.
 
 
+### Model Assessment
+
+The main metric of performance evaluation for models for regression problems is called the mean squared error (MSE) which is the average of the distance squared between the predicted value by the model and the actual value of the outcome variable. 
+
+
+$$ MSE =  1/n \sum^n_{i=1} (y_i - \hat{f}(x_i))^2 $$
+
 
 
 ## Machine Learning Coding Conventions
