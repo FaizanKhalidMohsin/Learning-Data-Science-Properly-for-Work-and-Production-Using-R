@@ -5,17 +5,95 @@
 
 We will teach SQLite, Microsoft Sequal Server, and PostgreSQL.
 
-Basic SQL commands
+### Basic SQL commands
+
+
+### Selecting Columns and Dispalying the Data.
 
 ```{r, eval = F}
 
 SELECT * FROM table;
+
+SELECT column1, column2, column3, ... FROM table;
+
+SELECT DISTINCT column_name FROM table;
+
+```
+
+### Counting the Rows and Groups.
+
+```{r, eval = F}
+
+SELECT COUNT(*) FROM table;
+
+```
+
+
+### Group by is Amazing.
+
+```{r, eval = F}
+
+SELECT COUNT(*) FROM table GROUP BY column1;
+
+SELECT COUNT(*) FROM table GROUP BY column1, column2, ...;
 
 ```
 
 
 
 
+
+Joining tables.
+
+```{r, eval = F}
+
+```
+
+
+
+
+## Dr. Chuck Severance Questions
+
+```{r, eval = F}
+
+```
+
+
+### Auto Increment
+
+```{r, eval = F}
+
+CREATE TABLE table (
+  id SERIAL,
+  name VARCHAR(128),
+  email VARCHAR(128) UNIQUE,
+  PRIMARY KEY(id)
+);
+
+```
+
+### Time
+
+Use the function NOW(). Also, use TIMESTAMP .
+
+```{r, eval = F}
+
+```
+
+
+## PostgreSQL
+
+
+
+Question 2
+What is the psql command to show all of the databases in a server?
+\l
+
+What is the psql command to show the schema of a relation?
+\dt  wrong
+
+What is the psql command to show all the relations in a database?
+\dd wrong
 
 
 
