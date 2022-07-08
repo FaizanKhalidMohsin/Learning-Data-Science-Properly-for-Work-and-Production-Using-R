@@ -1,0 +1,21 @@
+# SQL {#sql}
+
+
+## SQL Overview
+
+We will teach SQLite, Microsoft Sequal Server, and PostgreSQL.
+
+Basic SQL commands
+
+```{r, eval = F}
+
+SELECT * FROM table;
+
+```
+
+
+
+
+
+
+
