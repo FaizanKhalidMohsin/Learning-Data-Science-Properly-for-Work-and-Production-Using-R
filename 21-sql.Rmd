@@ -51,8 +51,62 @@ Joining tables.
 
 
 
+## PostgreSQL
 
-## Dr. Chuck Severance Questions
+
+
+Question 2
+What is the psql command to show all of the databases in a server?
+\l
+
+What is the psql command to show the schema of a relation?
+\dt  wrong
+
+What is the psql command to show all the relations in a database?
+\dd wrong
+
+
+## Install linux in Windows
+
+Windows 10 and onward, including the Windows 11 operating system which this book was written on, you can install a linux subsystem in windows and use that. The default distro that is downloaded is Ubuntu, however, you can download any particular distro you like. 
+
+Here is the link to install a linux subsystem in Windows 11 OS: https://techcommunity.microsoft.com/t5/windows-11/how-to-install-the-linux-windows-subsystem-in-windows-11/m-p/2701207
+
+
+### Installing Linux subsystem in windows. 
+
+### Commands in Linux (Terminal, Command Line).
+
+`pwd`
+
+`ls`
+
+`cd ~` This takes you to the home directory.
+
+`wget`
+
+`psql` Linux command to move into psql client where you can run all SQL commands we listed above.
+
+### Installing psql client / server in the Linux subsystem.
+
+Easiest way to do this is to follow the instructions here: https://askubuntu.com/questions/1040765/how-to-install-psql-without-postgres/1040766
+
+
+### Commands in psql client.
+
+In the psql client you can run all SQL commands, however, in psql it also allows to you run psql specific functions as well as the SQL commands. These commands let you see all the tables you have in the database, the relations that exist, etc. all the commands that is not easy to see through SQL commands as SQL does not have a convenient function/command to show all the tables in the database.
+
+`\dt` - Show all the tables in the database.
+
+`\dd` - 
+
+`\d+` - Show the schema of the current table. 
+
+`\q` - Getting out of psql client back into Linux
+
+However, once you are
+
+## Dr. Chuck Severance Questions - SQL Taught in PostgreSQL
 
 ```{r, eval = F}
 
@@ -79,21 +133,6 @@ Use the function NOW(). Also, use TIMESTAMP .
 ```{r, eval = F}
 
 ```
-
-
-## PostgreSQL
-
-
-
-Question 2
-What is the psql command to show all of the databases in a server?
-\l
-
-What is the psql command to show the schema of a relation?
-\dt  wrong
-
-What is the psql command to show all the relations in a database?
-\dd wrong
 
 
 
