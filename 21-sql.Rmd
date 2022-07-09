@@ -62,6 +62,16 @@ DELETE FROM table_name;
 
 ```{r, eval = F}
 
+DROP TABLE table_name;
+
+```
+
+
+#### Deleting the entire database
+
+```{r, eval = F}
+
+
 DROP DATABASE table;
 
 ```
