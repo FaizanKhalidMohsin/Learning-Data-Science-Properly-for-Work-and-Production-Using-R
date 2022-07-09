@@ -31,6 +31,8 @@ SELECT COUNT(*) FROM table;
 
 ### Group by is Amazing.
 
+I think COUNT() with the GROUP BY command is one of the most useful commands.
+
 ```{r, eval = F}
 
 SELECT COUNT(*) FROM table GROUP BY column1;
@@ -38,10 +40,6 @@ SELECT COUNT(*) FROM table GROUP BY column1;
 SELECT COUNT(*) FROM table GROUP BY column1, column2, ...;
 
 ```
-
-
-
-
 
 Joining tables.
 
@@ -54,7 +52,6 @@ Joining tables.
 ## PostgreSQL
 
 
-
 Question 2
 What is the psql command to show all of the databases in a server?
 \l
@@ -64,7 +61,6 @@ What is the psql command to show the schema of a relation?
 
 What is the psql command to show all the relations in a database?
 \dd wrong
-
 
 ## Install linux in Windows
 
@@ -128,7 +124,7 @@ CREATE TABLE table (
 
 ### Time
 
-Use the function NOW(). Also, use TIMESTAMP .
+Use the function NOW() to get the current date and time. Also, the function TIMESTAMP can be used to get time and date.
 
 ```{r, eval = F}
 
