@@ -8,7 +8,7 @@ We will teach SQLite, Microsoft Sequal Server, and PostgreSQL.
 ### Basic SQL commands
 
 
-### Selecting Columns and Dispalying the Data.
+#### Selecting Columns and Dispalying the Data.
 
 ```{r, eval = F}
 
@@ -20,7 +20,7 @@ SELECT DISTINCT column_name FROM table;
 
 ```
 
-### Counting the Rows and Groups.
+#### Counting the Rows and Groups.
 
 ```{r, eval = F}
 
@@ -29,7 +29,7 @@ SELECT COUNT(*) FROM table;
 ```
 
 
-### Group by is Amazing.
+#### GROUP BY is Amazing.
 
 I think COUNT() with the GROUP BY command is one of the most useful commands.
 
@@ -48,7 +48,7 @@ Joining tables.
 ```
 
 
-#### Deleting all rows from a table
+#### Deleting all rows from a table.
 
 
 ```{r, eval = F}
@@ -58,7 +58,7 @@ DELETE FROM table_name;
 ```
 
 
-#### Deleting the entire table
+#### Deleting the entire table.
 
 ```{r, eval = F}
 
@@ -67,16 +67,23 @@ DROP TABLE table_name;
 ```
 
 
-#### Deleting the entire database
+#### Deleting the entire database.
 
 ```{r, eval = F}
 
-
-DROP DATABASE table;
+DROP DATABASE database_name;
 
 ```
 
+#### How to insert data into tables. 
 
+```{r, eval = F}
+
+INSERT INTO table_name (colum_name) VALUES ('text');
+
+INSERT INTO table_name (column_name) VALUES (2);
+
+```
 
 ## PostgreSQL
 
