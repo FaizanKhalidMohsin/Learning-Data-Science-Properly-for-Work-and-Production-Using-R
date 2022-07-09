@@ -48,6 +48,25 @@ Joining tables.
 ```
 
 
+#### Deleting all rows from a table
+
+
+```{r, eval = F}
+
+DELETE FROM table_name;
+
+```
+
+
+#### Deleting the entire table
+
+```{r, eval = F}
+
+DROP DATABASE table;
+
+```
+
+
 
 ## PostgreSQL
 
