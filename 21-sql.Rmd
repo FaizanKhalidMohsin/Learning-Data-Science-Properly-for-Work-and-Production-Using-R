@@ -41,6 +41,19 @@ SELECT COUNT(*) FROM table GROUP BY column1, column2, ...;
 
 ```
 
+Present the distinct group counts by descending order by n. 
+
+```{r, eval=F}
+
+SELECT column1, COUNT(column1) FROM table_name GROUP BY column1 
+ORDER BY COUNT(column1) DESC;
+
+SELECT Country, COUNT(Country) FROM Customers GROUP BY Country ORDER BY COUNT(Country) DESC;
+
+```
+
+
+
 Joining tables.
 
 ```{r, eval = F}
@@ -178,5 +191,44 @@ SELECT * FROM pg_timezone_names;
 
 ```
 
+### Altering Tables. 
 
+#### Adding columns to a table.
+
+```{r, eval = F }
+
+ALTER TABLE table_name ADD COLUMN new_column_name data_type;
+
+```
+
+#### Removing/Dropping columns in a table.
+
+```{r, eval = F}
+ALTER TABLE table_name DROP COLUMN column_name;
+```
+
+A very common SQL command you will often be doing is finding the distinct values of a column in descending order of the count, with displaying only the top 5 or 10. Below is the complete SQL command for that.
+
+```{r, eval=F}
+
+SELECT state, count(state) FROM taxdata GROUP BY state ORDER BY COUNT(state) DESC LIMIT 5;
+
+```
+
+### Stored Procedures
+
+Add a stored procedure so that every time a record is updated, the updated_at variable is automatically set to the current time. This was covered in the lecture materials. The auto grader will insert some records, then update them and check to see if updated_at is updated appropriately.
+
+```{r, eval=F}
+
+CREATE TABLE keyvalue ( 
+  id SERIAL,
+  key VARCHAR(128) UNIQUE,
+  value VARCHAR(128) UNIQUE,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  PRIMARY KEY(id)
+);
+
+```
 
