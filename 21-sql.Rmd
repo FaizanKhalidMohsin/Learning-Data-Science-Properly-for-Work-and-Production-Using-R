@@ -75,6 +75,7 @@ DROP DATABASE database_name;
 
 ```
 
+
 #### How to insert data into tables. 
 
 ```{r, eval = F}
@@ -84,6 +85,8 @@ INSERT INTO table_name (colum_name) VALUES ('text');
 INSERT INTO table_name (column_name) VALUES (2);
 
 ```
+
+
 
 ## PostgreSQL
 
@@ -162,7 +165,16 @@ CREATE TABLE table (
 
 Use the function NOW() to get the current date and time. Also, the function TIMESTAMP can be used to get time and date.
 
+Time zones - can get really complicated.
+
+In PostgreSQL have to choose/pick your time zone.
+
+The below tells you want is going on in the database you are working in.
 ```{r, eval = F}
+
+# This is amazing. So using this you can always have a table to use and play with. 
+
+SELECT * FROM pg_timezone_names;
 
 ```
 
