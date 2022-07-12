@@ -1,6 +1,5 @@
 # Interview Questions {#interviewquestions}
 
-
 ## Intact Senior Data Scientist Questions for Technical Test
 
 There will be three coding questions and eleven on machine learning and statistics.
@@ -14,7 +13,7 @@ The theoretical machine learning questions
 
 The topics will include Clustering, A/B testing, DT(?)
 
-Perhaps she also mentioned random forest. 
+Perhaps she also mentioned random forest.
 
 ### Check on Glassdoors to see if there are any questions available there.
 
@@ -30,7 +29,7 @@ Perhaps she also mentioned random forest.
 
 6. Cross validation, overfitting, python programing.
 
-7. Why did you choose to apply for Intact? 
+7. Why did you choose to apply for Intact?
 
 - The position and type of work.
 
@@ -44,15 +43,13 @@ Perhaps she also mentioned random forest.
 
 9.4 What data science technology you think has the potential to change the world and in what field?
 
-
-## Amazon Data Science Questions
+## Amazon Data Science Questions.
 
 Link: https://www.glassdoor.ca/Interview/Amazon-Data-Scientist-Interview-Questions-EI_IE6036.0,6_KO7,21_IP2.htm?filter.jobTitleFTS=Data+Scientist
 
+Question curated from Glassdoors on 2022-07-02.
 
-Question curated from Glassdoors on 2022-07-02
-
-- Can you write SQL and Python
+- Can you write SQL and Python.
 
 - What do you do in your current position?
 
@@ -60,13 +57,15 @@ Question curated from Glassdoors on 2022-07-02
 
 - How would you deal with an imbalanced dataset?
 
-- Explain one of several unsupervised learning algorithms
+- Explain one of several unsupervised learning algorithms.
 
-- Explain random forest, discuss its pros and cons
+- Explain random forest, discuss its pros and cons.
 
 - How to interpret OLS Regression output?
 
 - Explain confidence intervals.
+
+Attempt 1: A confidence interval is associated with confidence level. If the confidence level of the confidence interval is 95%, then you can think about confidence interval as the range that will will capture the correct value of the parameter about 95 times if the same experiment was repeated 100 times.
 
 - Diff techniques to assess multicollinearity (correlation, VIF, tolerance etc)
 
@@ -75,6 +74,8 @@ Question curated from Glassdoors on 2022-07-02
 - How to decide k value in KNN
 
 - Explain p-value
+
+Attempt 1: The p-value is a location parameter. It tells you have far your data is from the null hypothesis. The smaller the p-value the farther the data or the sample is from the null hypothesis. 
 
 - To write a query from a table using Group By statement.
 
