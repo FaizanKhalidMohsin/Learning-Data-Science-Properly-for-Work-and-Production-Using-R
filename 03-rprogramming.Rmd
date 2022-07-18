@@ -68,3 +68,102 @@ x
 y
 ```
 
+
+## Writing Basic functions.
+
+```{r}
+f_Name <- function (argument) {
+statement
+}
+
+```
+
+### Function  for x power y
+
+```{r}
+power <- function(x, y) {
+  p <- x^y
+print(paste(x,"raised to the power", y, "is", p))
+}
+```
+
+### Example
+
+```{r}
+power(4,3)
+```
+
+## Working with libraries.
+
+Libraries have multiple functions that have specific instructions to perform tasks.
+ 
+### How to install packages. 
+
+
+```{r}
+#install.packages()
+```
+
+
+## Plots with ggplot
+
+```{r}
+library(ggplot2)
+head(iris)
+```
+
+### Barplot
+
+```{r}
+ggplot(data = iris, aes(x = Sepal.Length, y = Species)) +
+    geom_bar(stat= "identity")
+```
+
+
+
+### point with ggplot2.
+
+```{r}
+plot <- ggplot(data = iris, aes(x = Sepal.Length, y = Species)) 
+    plot+
+    geom_point()
+```
+
+### Boxplot with ggplot2
+
+```{r}
+plot+
+  geom_boxplot()
+
+```
+
+## Introduction to dplyr library
+
+When we are working with data it is very important to know about dplyr.
+In simple we can say that it makes every step easy.
+
+### Data manupulation with dplyr
+
+#### filter()
+            Filter data from any variable by choosing specific rows.
+#### slice()
+           Choose rows based on location.
+#### arrange()
+             Arrange the data.
+#### select()
+             Use to select variable.
+#### rename()
+           Use to rename variable name.
+#### mutate()
+           Use to create a new column.
+           
+## Introduction to tidyverse package.
+
+Tidyverse contains other 7 packages in it.
+```{r}
+library(tidyverse)
+```
+
+Tidyverse is actually an R package that helps with data transformations and presentation.
+The whole point of tidyverse is to improve productivity and improve the application of data science using R.The purpose of tidyverse is to provide key data transformation functions in a single package. The purpose of tidyverse is to provide key data transformation functions in a single package. 
+

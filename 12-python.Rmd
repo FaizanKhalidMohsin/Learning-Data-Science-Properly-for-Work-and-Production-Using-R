@@ -1,8 +1,44 @@
-# Python {#python}
+# Python in R {#python}
 
 
-## Basics of Python
+## Basics of Running Python in R.
 
+To run python in R you need to install the package `reticulate`. 
+
+Further, I would like to bring an issue to attention. If you already have Anaconda installed, and even if it is found by `reticulate`, you will be prompted to install miniconda.
+
+I chose 'n' when prompted to install it.
+
+The explanation give by the `reticulate` package people: 
+
+"This was by design. (...) Note that you will only be prompted once, and rejecting that prompt is "sticky" (you won't get bugged about it again on the same account / machine)" https://github.com/rstudio/reticulate/issues/607
+
+The reason they state is, "Our idea is that by standardizing on a known variant of Python we'll make
+the package (and other packages that use it) easier to install and support.
+As you may have noticed a large percentage of the GitHub issues are Python
+configuration issues (often it's the case that the version the user already
+has is somehow mal-configured)" https://github.com/rstudio/reticulate/issues/607
+
+
+
+```{r}
+
+if (!require(reticulate)) install.packages('reticulate'); require(reticulate)
+
+```
+
+The above first checks if the package `reticulate` is installed or not. If it is not then it install the package and then loads it. The `;` allows you to execute two commands that would need to be written on separate lines to be on the same line. 
+
+__Tips :__ You can write an `if` statement in one line. Doing so also removes the need to wrap the body of the `if` statement in curly brackets `{}`. Now, however, after the `install.packages()` command the `require()` command would need to be written on a second line to be executed - writing it on the same line will cause it to give an error, but doing so will remove the nice compact one-line form of the `if` statement, hence we use the `;` to execute the next command on the same line. In fact, we can have multiple commands executed in the same line by separating them by the semi-colon `;`. 
+
+
+Below we do a simple calculations in python.
+
+```{python}
+1 + 1
+
+3 + 3
+```
 
 
 ## Data Analysis with Python Using Pandas
