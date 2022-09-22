@@ -18,12 +18,12 @@ e.g. Company Name Project Name Date.
 
 Use common abbreviations wherever possible, such as Jan for January or Corp for Corporation. The goal when naming files is to be able to tell what the file is about without having to open it and look.# Git and Git Hub {#git}
 
-First of all, I would like to say that command line and linux are amazing. It does things so simply and so easily it is almost as if you wave a hand a your room gets cleaned. You make a few hand gestures and wood, stone, and metal come together and assemble themselves into the frame of the house you have in mind. The ratio of the amount of effort you put in, the simplisity of the instructions and the accuracy of the execution to not what you say, but what you actually want is a kin to that of magic. So I write this ode in praise of the command line, Linux, and its predecessor Unix. 
+First of all, I would like to say that command line and linux are amazing. It does things so simply and so easily it is almost as if you wave a hand a your room gets cleaned. You make a few hand gestures and wood, stone, and metal come together and assemble themselves into the frame of the house you have in mind. The ratio of the amount of effort you put in, the simplicity of the instructions and the accuracy of the execution to not what you say, but what you actually want is a kin to that of magic. So I write this ode in praise of the command line, Linux, and its predecessor Unix. 
 
 
 ## The Command Line
 
-First please note that for the title the first letter of every word is capital except of connecting words which are not present. Also, since it is a Title it does not end with a peroid also called full-stop. 
+First please note that for the title the first letter of every word is capital except of connecting words which are not present. Also, since it is a Title it does not end with a period also called full-stop. 
 
 Here are the basic commands to be used at the command line or terminal. 
 
@@ -31,13 +31,18 @@ Here are the basic commands to be used at the command line or terminal.
 
 Knowing these tips is essential because it increases productivity by so much and makes this much easier to do. 
 
-1. **Tip Number 1:** When simultaneously working on two different projects, not even necessarily programming projects, then have two terminals or git bash terminals open each one cd'ed into the respepective project's working directory. 
+1. **Tip Number 1:** When simultaneously working on two different projects, not even necessarily programming projects, then have two terminals or git bash terminals open each one cd'ed into the respective project's working directory. 
 
 I tend to work on two projects at the same time. This is what I found to be very productive for me. I know if I start becoming less productive i.e. start not having ideas, hit bottle necks, become very slow, then I know I can switch to the other project. Also, when I only have one project open I feel a lot more pressure, that as if I need to finish it or complete it quickly. By having two projects open I experience less stress and don't feel like if I am unable to progress in one then I am stuck. Have two projects open removes the feeling of only having one way forward and the fear of being stuck if that way is blocked. 
 
 So when you have two separate coding projects running and you need to commit and push the changes to the GitHub, the amazing thing is to just have two git bash or terminals open with each being in one project and they run independently of one another. For some applications you cannot have two separate intinces running at the same time doing separate things. 
 
+## Configure Username and Email on GitBash
+Before working on Git you have to configure your username and email id on Git bash.
 
+**Point 1** Open Git Bash 
+**Point 2** Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+**Point 3** Set your email address: git config --global user.email "MY_NAME@example.com"
 
 ## How to see which remote repository your local repository is linked to or more explicitely, it is fetching from and pushing to.
 
